@@ -2,7 +2,7 @@
 
 <head> 
 
-<title>Лабораторныя 2(3 Ветка)</title>> 
+<title>Лабораторная 2(3 Ветка)</title>> 
 
     <input type="button" value='Start' id='Start';"> 
 
@@ -48,6 +48,7 @@
 
 </head> 
 
-<body>    
+<body>
+Hello    
 </body> 
 </html> 
