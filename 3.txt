@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Hello
+=======
+Hello 
+>>>>>>> branch_2
 =======
 Hello 
 >>>>>>> branch_2
