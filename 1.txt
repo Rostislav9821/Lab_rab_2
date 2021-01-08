@@ -1,0 +1,53 @@
+<html> 
+
+<head> 
+
+<title>Лабораторныя 2(3 Ветка)</title>> 
+
+    <input type="button" value='Start' id='Start';"> 
+
+    <input type="button" value='Close' id='Close'"> 
+
+    <script> 
+
+        let win; 
+
+        let x = +prompt('Введите номер планеты', ''); 
+
+        document.getElementById('Start').onclick = () => { 
+
+            win = window.open('', 'win', 'width=200, height=200'); 
+
+        switch(x) { 
+            case 1: 
+                win.document.write(`<h3 style='color: red; background-color:grey;font-family: Geneva;'>${x} - Меркурий</h3>`);
+                break; 
+            case 2: 
+                win.document.write(`<h3 style='color: blue; background-color:yellow;font-family: Arial ;'>${x} - Венера</h3>`); 
+                break; 
+            case 3: 
+                win.document.write(`<h3 style='color: pink; background-color:black;font-family: Helvetica ;'>${x} - Земля</h3>`); 
+                break; 
+            case 4: 
+                win.document.write(`<h3 style='color: green; background-color:orange;font-family: sans-serif ;'>${x} - Марс</h3>`); 
+                break; 
+            case 5: 
+          default: 
+                win.document.write(`<h3 style='color: purple; ;'>${x} - Ошибка</h3>`);
+                break; 
+        } 
+                } 
+
+        document.getElementById('Close').onclick = () => { 
+
+            win.close(); 
+
+        } 
+
+    </script> 
+
+</head> 
+
+<body>    
+</body> 
+</html> 
